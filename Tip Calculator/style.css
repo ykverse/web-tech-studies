@@ -8,7 +8,18 @@ body{
 }
 
 .contoiner{
-    background-color: aquamarine;
-    padding: 15pxpx;
+    background: #2A7B9B;
+    background: linear-gradient(56deg, rgba(42, 123, 155, .7) 10%,
+    rgba(87, 199, 133, .7) 50%, rgba(237, 221, 83, .7) 100%);
+    max-width: 600px;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 160px auto;
+    transition: .7s;
+
 
 }
+.contoiner:hover{
+    background-color: rgb(42, 123, 155, 1);
+}
+
