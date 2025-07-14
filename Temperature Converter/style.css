@@ -2,5 +2,16 @@ body{
     background: linear-gradient(to left bottom, #8585ed , #a8f7a8 );
     margin:0;
     min-height: 100vh;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.containor{
+   background-color: #8585ed;
+   border-radius: 8px;
+   min-height: 350px;
+   width:35%;
 
 }
